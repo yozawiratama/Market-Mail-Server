@@ -17,13 +17,13 @@ var bodyParser = require('body-parser');
 // =============================================================================
 
 var sghelper = require('sendgrid').mail;
-var sg = require('sendgrid')('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');
+var sg = require('sendgrid')('SG.XXXXXXXXXXXXXXXXXXXXXXXXXXX');
 
 // MAILGUN SETUP
 // =============================================================================
 
-var mailgunAPIKey = 'key-789fd824c6de07ad2a08ebd914ee96ea';
-var domain = 'sandbox1ee7780c7a57441e9f2c67b6363e1f66.mailgun.org';
+var mailgunAPIKey = 'key-XXXXXXXXXXXXXXXXXXXXXXXXX';
+var domain = 'sandbox1xxxxxxxxxxxxxxxxxX.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: mailgunAPIKey, domain: domain});
 
 
