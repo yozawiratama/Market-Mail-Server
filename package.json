@@ -1,0 +1,25 @@
+{
+  "name": "mail-market-server-side",
+  "version": "0.0.1",
+  "description": "Simple Rest API services to manage campaign with email",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yozawiratama/Mail-Market.git"
+  },
+  "author": "Yoza Wiratama (yoza@wiratama.id)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yozawiratama/Mail-Market/issues"
+  },
+  "homepage": "https://github.com/yozawiratama/Mail-Market#readme",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "^4.15.3",
+    "mailgun-js": "^0.11.3",
+    "sendgrid": "^5.2.0"
+  }
+}
